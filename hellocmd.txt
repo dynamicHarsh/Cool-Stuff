@@ -1,0 +1,142 @@
+
+
+0.Save Output of a file 
+command >>output.txt
+
+
+
+
+1.To encrypt any any image as an icon to a zip file
+D:\HARSH\Music>copy /b ico.jpg+a.rar secret.jpg   
+
+2.to encrypt every file 
+
+cipher /E
+
+3.To hide your file from everyone else
+attrib +h +s +r secret.jpg
+To show you file
+attrib -h -s -r secret.jpg
+
+4.
+To show all the wifi networks connect 
+netsh wlan show profile
+
+To show a particular device password in plain text
+nesh wlan show profile "realme 9i" key=clear
+
+5.
+To view the password of everything you have stored
+
+ 
+
+To save it into a file
+
+
+batch file
+
+
+7.systeminfo // To view your system information
+
+8.To open cmd in a folder 
+->go to path , type cmd , hit enter 
+To open the same folder in explorer from cmd
+explorer .
+
+
+9. Map a drive to a location
+subst s: "pathOfFile"
+Undo it
+subst /d s:
+
+10.change the color of text and background to green text and black background
+
+color 02	//0->background 2->text
+For help about more color options 
+color /?
+
+11.To change C:\Windows\system32>
+
+prompt {anything you wish to see}$G
+OR
+prompt anything$G
+UNDO
+prompt
+
+12.change the title of cmd
+title anything
+
+
+13.see weather in cmd
+curl wttr.in/Sangrur
+
+12.See if a website is up right now
+
+curl -Is websiteName
+
+13. find IP
+
+curl checkip.amazonaws.com
+
+14.Make QR code for a website****
+
+curl qrenco.de/https://dynamicharsh.github.io./Portfolio/
+
+15.To view the latest video of your favourite youtuber
+
+curl -s https://decapi.me/youtube/latest_video?user=ChannelName(Note: does not work on all youtubers)
+Twitter
+curl -s https://decapi.me/twitter/latest_video?user=profileName
+
+16.To define your own word
+
+curl dict.org/d:word
+
+
+
+17. Use chatGPT from cmd
+curl <https://api.openai.com/v1/chat/completions> -H
+"Authorization: Bearer skFZ75cesnv4FnuQqI2NIbT3BlbkFJC4UbZ8MEfRLE5uFkIxS7" -H
+"Content-Type: application/json" -d "{\\"model\\": \
+\"gpt-3.5-turbo\\", \\"messages\\": [{\\"role\\": \
+\"user\\", \\"content\\": \\"Who is NetworkChuck?\\"}]}"
+
+
+18. Start your website from cmd
+
+start https://dynamicharsh.github.io./Portfolio/
+
+19.Delete all the temp files
+del /q /f /s %temp%\*
+
+Restore them
+del /s /q C:\Windows\temp\*
+
+20.
+
+F1-will type in the letters from the last command
+F2-copy previous command upto a certain character
+F3-copy the entire previous command**
+F4-delete previous command upto a certain character
+F5-cycle through the previous commands**
+F6- enters the EOF(^Z)
+F7-shows the list of previous commands**
+F8-shows the very first command
+F9-go to a command number
+
+
+
+21.History of all the commands you typed till now
+doskey /history
+
+22.Windows Terminal
+
+drag and drop a file for path
+
+For help
+help
+
+for help regarding a specific command
+command /?
+
+
